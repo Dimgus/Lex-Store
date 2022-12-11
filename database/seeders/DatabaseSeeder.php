@@ -150,7 +150,8 @@ class DatabaseSeeder extends Seeder
             'price' => '8000000',
             'stock' => '5',
             'description' => 'Apple iPhone X merupakan HP dengan layar 5.8" dan tingkat densitas piksel sebesar 458ppi. Ia dilengkapi dengan kamera belakang 12MP dan kamera depan 12MP. HP ini juga hadir dengan kapasitas baterai 2716mAh. Apple iPhone X dirilis pada: 2017.',
-            'https://images.tokopedia.net/img/cache/500-square/product-1/2019/4/30/3420722/3420722_8ef6fe65-222d-4e37-8100-dc5a3f268945_800_800.jpg'
+            'images' => 'https://images.tokopedia.net/img/cache/500-square/product-1/2019/4/30/3420722/3420722_8ef6fe65-222d-4e37-8100-dc5a3f268945_800_800.jpg'
+
         ]);
         Product::create([
             'product_name' => 'OPPO Reno8 ',
